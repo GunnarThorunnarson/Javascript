@@ -1,0 +1,26 @@
+1. a)  function spaceShipMaker(name, life) {
+          var obj = {};
+          obj.name = "SpaceRacer";
+          obj.life = 10;
+          obj.showName = function() {
+              console.log(" I'm a space ship and my name is "+this.name );
+          };
+
+          return obj;
+      }
+
+      var miniShip = new spaceShipMaker();
+      var mediumShip = new spaceShipMaker();
+      var bigShip = new spaceShipMaker();
+      
+   b) miniShip.name = "Mini Ship";
+      mediumShip.name = "Medium Ship";
+      bigShip.name = "Big Ship"
+
+      miniShip.showName();
+
+   
+   c)Er ekki 100% að skilja prototype
+
+
+2.) Þær líta út fyrir að virka frekar vel.
